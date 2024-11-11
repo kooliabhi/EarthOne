@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #252a30d9;
+    background-image: url('C:\Users\HP\OneDrive\Desktop\Persist\earth\src\assets\earth.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200vh;
+    
+
+}
+
+.pt-serif-regular {
+    color: aliceblue;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.name {
+    color: aliceblue;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.name1 {
+    color: aliceblue;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px;
+    padding: 0;
+
+}
+
+.name2 {
+    color: aliceblue;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.box {
+    background-color: #252a30d9;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 55vw;
+    height: 30vh;
+    border-radius: 30px;
+    margin: 0 auto;
+    /* Center the box on the page */
+}
+
+.box img {
+    width: 28vw;
+    height: 30vh;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-right: none;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.box-text {
+    color: aliceblue;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+button {
+    border-radius: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 4px;
+}
+
+.body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centers the div horizontally */
+    text-align: left;
+    /* Keeps text left-aligned */
+    max-width: 1060px;
+    margin: 0 auto;
+    /* Centers the div on the page */
+    padding: 20px;
+    /* Optional: Adds padding around the text */
+}
+
+h1 {
+    font-size: 2.5em;
+    /* Adjust size as needed */
+
+}
+
+h2 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    word-spacing: 15px;
+}
+
+
+.pt-serif {
+    color: aliceblue;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.box2 {
+
+    align-items: center;
+    justify-content: center;
+    /* Corrected this from justify-items to justify-content */
+    height: 100vh;
+    width: 40vw;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: auto;
+    /* Centers the box horizontally */
+}
+
+.namee {
+    padding: 20px;
+    padding-top: 80px;
+    margin-bottom: 70px;
+    color: rgb(18, 25, 32);
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.names {
+    padding: 20px;
+    margin: 15px;
+    margin-right: 20px;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+
+}
+
+.box3 {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centers the div horizontally */
+    text-align: left;
+    /* Keeps text left-aligned */
+    max-width: 1060px;
+    margin: 0 auto;
+    /* Centers the div on the page */
+
+
+}
+
+.box3 h1 {
+    text-align: left;
+    color: aliceblue;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+
+}
+
+.box3 p {
+    color: aliceblue;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+.contain {
+    display: flex;
+}
+
+.box3 .nmt {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.box3 .nmtt {
+    font-size: 25px;
+    margin: 20px;
+}
+.half-width-line {
+    width: 50%;
+    margin: 0 auto; 
+    border: 1px solid white; 
+
+    
+  }
+  
+
+.box4{
+
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.box4 img{
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 50vh;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+
+.box5{
+    align-items: center;
+    justify-content: center;
+    /* Corrected this from justify-items to justify-content */
+    height: 100vh;
+    width: 70vw;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: auto;
+    /* Centers the box horizontally */
+}
+.box5 .content{
+    display: flex;
+    padding: 20px;
+    margin: 40px;
+  
+}
+
+.box5 .headline{
+    color: black;
+}
